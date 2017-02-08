@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS product (
+  ID SERIAL PRIMARY KEY,
+  Name VARCHAR(40),
+  Description TEXT,
+  Price DECIMAL(10, 2),
+  Imageurl VARCHAR(100)
+)
